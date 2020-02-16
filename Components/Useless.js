@@ -1,14 +1,14 @@
 import React, {Component} from 'react';
+import '../App.css';
 
 
-class Home extends Component{
+class Useless extends Component{
     render(){
         return(
-            
             <div className="useless">
                 <div>
-                <h1>Demo</h1>
-                
+                <h1>Useless extra data</h1>
+                <h3>Here you can find a collection of some of the things I like really much in life</h3>
                 </div>
                 <div className="flip-container">
                     <ul>
@@ -255,4 +255,4 @@ class Home extends Component{
     }
 };
 
-export default Home;
+export default Useless;

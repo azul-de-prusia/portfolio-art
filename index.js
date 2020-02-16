@@ -1,10 +1,29 @@
-import React from 'react';
+import React, {Component} from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+//import App from './App';
+import Navigation from './Components/Navigation';
+import Header from './Components/header';
+import Routes from './routes';
 import * as serviceWorker from './serviceWorker';
+import { HashRouter as Router} from 'react-router-dom';
 
-ReactDOM.render(<App />, document.getElementById('root'));
+class App extends Component {
+    render() {
+        return(
+            <div>
+                <Router>
+                <Navigation navTitle="Tegthyn Coral Quiñones Gutiérrez"/>
+                
+                <Routes></Routes>
+                </Router>
+            </div>
+        );
+    }
+    
+}
+
+ReactDOM.render(<App/>, document.getElementById('root'));
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
