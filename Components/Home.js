@@ -271,7 +271,7 @@ class Home extends Component{
                         </li>
                     </ul>
         </div>
-
+                <p>This project was developed with React js by Azul de Prusia</p>
        
             </div>
 
