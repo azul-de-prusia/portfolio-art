@@ -8,7 +8,7 @@ class Home extends Component{
             
             <div className="useless">
                 <div>
-                <h1>Home</h1>
+                <h1>Home</h1> 
                 
                 </div>
                 <div className="flip-container">
