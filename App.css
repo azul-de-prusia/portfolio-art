@@ -57,11 +57,13 @@ nav{
 display: flex;
 justify-content: space-between;
 background-color: rgb(88,7,107);
-background: linear-gradient(90deg, rgba(111,29,164,1) 10%, rgba(213,66,199,1) 46%, rgba(66,173,255,1) 97%);
+background-image: url("https://i.ibb.co/LQYB7X6/pollo-3.jpg");
+background-size: cover;
 align-items: center;
+padding-top: 3%;
 padding-left: 3%;
 padding-right: 3%;
-padding-bottom: 1%;
+padding-bottom:3%;
 font-size: 130%;
 }
 nav ul{
@@ -84,7 +86,7 @@ nav ul li a{
 .buttonStyle{
   background-color: transparent;
   border: transparent;
-  font-size: 15px;
+  font-size: 21px;
 }
 .text{
   font-size: 17px;
@@ -232,11 +234,9 @@ nav ul li a{
   background-color: rgb(128, 128, 128, 0.5);
 }
 .soft{
-  color: #FFF;
+  color: rgb(131, 160, 160);
 }
-.tech{
-  color: #ffffff;
-}
+
 .ad{
   
   color: rgb(131, 160, 160);
@@ -251,13 +251,24 @@ nav ul li a{
   font-size: 18px;
   vertical-align: top;
 }
-.paragraph{
+.paragraph .sof .sof2{
+  display: inline-block;
+  margin-right: 3%;
+  margin-left: 3%;
+  width:25%;
+  text-align: justify;
+  font-size: 18px;
+  vertical-align: top;
+}
+.col{
   display: inline-block;
   width:25%;
   height: fit-content;
   text-align: justify;
   font-size: 18px;
   vertical-align: top;
+  margin-right: 3%;
+  margin-left: 3%;
 }
 .gif{
   height:250px;

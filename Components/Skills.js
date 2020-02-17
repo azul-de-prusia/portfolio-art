@@ -6,16 +6,16 @@ class Skills extends Component{
         return(
             <div className="skills">
                 <h1>Skills</h1>
-                    <h3 className="ad">Here's a summary of the technical and soft skills I have to develop the projects in which I collaborate</h3>
                         <ul>
                             
-                        <h3 className="soft">SoftTechnical</h3>
-                        <li>
+                        
+                        <li className="col">
+                        <h3 className="soft">Soft </h3>
                         <p>Creative</p>
                         <p>Task oriented</p>
                         <p>Resourceful</p>
                         <p>Self learning</p>
-                        <p>Team working</p>
+                        <p>Team player</p>
                         <p>Organized</p>
                         <p>Responsible</p>
                         </li>
@@ -29,26 +29,30 @@ class Skills extends Component{
                         <p></p>
                             </li>
 
-                        <li>
+                        <li className="Col">
+                            <h3 className="soft">Technical</h3>
                         <p>Adobe Photoshop</p>
                         <p>Corel draw</p>
                         <p>GIMP</p>
                         <p>Krita</p>
                         <p>Adobe Illustrator</p>
                         <p>Blender</p>
+                        <p>Wacom</p>
                         </li>
                         <li>
                         <p>Strong drawing skills</p>
                         <p>Human and animal anatomical knowledge </p>
                         <p>Practical knowledge of golden composition</p>
+                        <p>Pencil, pen, charcoal and pastel drawing</p>
                         <p>Watercolor painting</p>
                         <p>Engraving</p>
+                        <p>Color theory</p>
                         <p>Oil painting</p>
                         <p>Tempera painting</p>
                         </li>
 
 
-                        <h3 className="tech">Complementary skills as Front-end developer:</h3>
+                        <h3 className="soft">Complementary skills as Front-end developer:</h3>
                         <li>
                         <p>Javascript ES6</p>
                         <p>HTML 5</p>
