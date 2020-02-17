@@ -196,6 +196,9 @@ nav ul li a{
 #imgw{
   width: 300px;
 }
+#imgx{
+  width: 600px;
+}
 
 .About, .skills .linkscontainer{
   position: relative;
