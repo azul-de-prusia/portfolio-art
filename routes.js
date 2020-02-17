@@ -19,6 +19,7 @@ const Routes = () => (
 
       <Route path="/Header" component ={Header}/>
       <Route path="/About" component ={About}/>
+      <Route path="/Home" component ={Home}/>
       <Route path="/Contact" component ={Contact}/>
       <Route path="/Useless" component ={Useless}/>
       <Route path="/Skills" component ={Skills}/>

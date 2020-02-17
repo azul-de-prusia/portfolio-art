@@ -92,7 +92,7 @@ nav ul li a{
 .contact{
   background-color: black;
   text-align: center;
-  color:aquamarine;
+  color:rgb(131, 160, 160);
 }
 .icon{
   width: 200px;
@@ -105,14 +105,14 @@ nav ul li a{
   ;
 }
 .About, .linkscontainer, .contact, .skills, .useless, .home{
-  color: aqua;
+  color: rgb(131, 160, 160);
   text-align: center;
 }
 .tex{
   margin-left: 20px;
   width: 60%;
   text-align: left;
-  color:aqua;
+  color:rgb(131, 160, 160);
   vertical-align: top;
 }
 .home ul li , .contact ul li{
@@ -120,7 +120,7 @@ nav ul li a{
 }
 
 .href{
-  color: aqua;
+  color: rgb(131, 160, 160);
 }
 .footer{
   margin-top: 29%;
@@ -209,7 +209,7 @@ nav ul li a{
   margin-left: 0px;
 }
 .skills{
-  background-image: url("https://i.ibb.co/rkGJ6F1/vanitas.jpg");
+ 
  background-repeat: no-repeat;
  background-size: 85%;
  background-position: center;
@@ -222,7 +222,7 @@ nav ul li a{
   display: inline-block;
   margin-right: 3%;
   margin-left: 0%;
-  width:19%;
+  width:20%;
   height: 30%;
   text-align: justify;
   font-size: 18px;
@@ -235,11 +235,11 @@ nav ul li a{
   color: #FFF;
 }
 .tech{
-  color: #000000;
+  color: #ffffff;
 }
 .ad{
   
-  color: aqua;
+  color: rgb(131, 160, 160);
 }
 .small{
   display: inline-block;
