@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import ReactPlayer from 'react-player';
 
 
 class Home extends Component{
@@ -13,6 +14,18 @@ class Home extends Component{
                 <div className="flip-container">
                     <ul>
                     
+                    <li className="card">
+                    <div>
+        <ReactPlayer
+          url='https://vimeo.com/391876890'
+          className='react-player'
+          playing
+          width='300px'
+          height='300px'
+            loop='true'
+        />
+      </div>
+                        </li>
                     <li className="card">
                             <div id="card1" class="card">
                                 <div class="front"><img src="https://i.ibb.co/ZhrMjbx/galidelineado.jpg" alt="" id="imgw"></img></div>
@@ -40,16 +53,15 @@ class Home extends Component{
                                  </div>
                             </div>
                         </li>
-                       
                         <li className="card">
                             <div id="card1" class="card">
-                                <div class="front"><img src="https://i.ibb.co/jR1wC7M/peces.jpg" alt="" id="img"></img></div>
+                                <div class="front"><img src="https://i.ibb.co/bWGWPCh/ezgif-com-crop.gif" id="imgw"alt=""></img></div>
                                     <div class="back">
-                                        <h1>The Smiths</h1>
-                                    <p>Prime exponents of British alternative rock, the Smiths were based around the unlikely partnership of singer-lyricist Morrissey (a reclusive bookworm inspired as much by Oscar Wilde as by his glam-rock heroes the New York Dolls) and budding guitar hero Marr. </p>
+                                        <h1>Zdzisław Beksínski</h1>
+                                    <p>Polish painter, photographer and sculptor. He executed his drawings and paintings of a genre that he himself called baroque or gothic.</p>
                                  </div>
                             </div>
-                        </li>     
+                        </li>  
                         <li className="card">
                             <div id="card1" class="card">
                                 <div class="front"><img src="https://i.ibb.co/DV5n495/1.jpg" id="imgw"alt=""></img></div>
@@ -58,7 +70,17 @@ class Home extends Component{
                                     <p>Polish painter, photographer and sculptor. He executed his drawings and paintings of a genre that he himself called baroque or gothic.</p>
                                  </div>
                             </div>
-                        </li>               
+                        </li>     
+                        <li className="card">
+                            <div id="card1" class="card">
+                                <div class="front"><img src="https://i.ibb.co/jR1wC7M/peces.jpg" alt="" id="img"></img></div>
+                                    <div class="back">
+                                        <h1>The Smiths</h1>
+                                    <p>Prime exponents of British alternative rock, the Smiths were based around the unlikely partnership of singer-lyricist Morrissey (a reclusive bookworm inspired as much by Oscar Wilde as by his glam-rock heroes the New York Dolls) and budding guitar hero Marr. </p>
+                                 </div>
+                            </div>
+                        </li>           
+                          
                         <li className="card">
                             <div id="card1" class="card">
                                 <div class="front"><img src="https://i.ibb.co/DpZhsT8/lobosbien.jpg" id="img"alt=""></img></div>
